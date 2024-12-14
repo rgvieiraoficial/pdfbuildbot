@@ -1,0 +1,20 @@
+{
+  "name": "pdfbuildbot",
+  "version": "0.0.1",
+  "description": "A simple bot for WhatsApp that converts text messages into a PDF and sends it back to the user.",
+  "main": "dist/server.js",
+  "repository": "https://github.com/rgvieiraoficial/pdfbuildbot.git",
+  "author": "Yami Renato <yami.hiei87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "4.17.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/uuid": "^10.0.0",
+    "ts-node-dev": "^2.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
